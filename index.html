@@ -4,21 +4,51 @@
   <meta charset="UTF-8">
   <title>Akshay Kumar</title>
   
-  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
   
       <link rel="stylesheet" href="ss/style.css">
-      <link rel="icon" href="imf/akk.png" type="image/gif" sizes="16x16">
+      <link rel="stylesheet" href="ss/chatbox.css">
+
+  <link rel="icon" href="imf/akk.png" type="image/gif" sizes="16x16">
+  
+  
+  
+
+<script src="jsf/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="jsf/chatbox.js"></script>
   
 </head>
 
 <body>
   <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
-  
     <script  src="jsf/index.js"></script>
-<iframe
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/2766830c-cd01-4482-8785-2d99dcb65115">
-</iframe>
-</body>
+
+  <div class="chatbox chatbox--tray chatbox--empty">
+    <div class="chatbox__title">
+        <h5><a href="#">Hye Stranger!</a></h5>
+        <button class="chatbox__title__tray">
+            <span></span>
+        </button>
+        <button class="chatbox__title__close">
+            <span>
+                <svg viewBox="0 0 12 12" width="12px" height="12px">
+                    <line stroke="#FFFFFF" x1="11.75" y1="0.25" x2="0.25" y2="11.75"></line>
+                    <line stroke="#FFFFFF" x1="11.75" y1="11.75" x2="0.25" y2="0.25"></line>
+                </svg>
+            </span>
+        </button>
+    </div>
+    <div class="chatbox__body">
+        
+    </div>
+    <form class="chatbox__credentials">
+     <iframe height="430" width="350" src="https://bot.dialogflow.com/2766830c-cd01-4482-8785-2d99dcb65115"></iframe>
+
+    </form>
+</div>
+
+  
+  
+  </body>
 </html>
