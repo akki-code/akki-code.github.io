@@ -198,11 +198,11 @@
 }
 
 .chatbox--empty {
-    height: 460px;
+    height: 470px;
 }
 
 .chatbox--empty.chatbox--tray {
-    bottom: -415px;
+    bottom: -435px;
 }
 
 .chatbox--empty.chatbox--closed {
